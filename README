@@ -1,0 +1,32 @@
+Metode Numerice - Tema 1
+Roinita Lucian-Teodor
+315CA
+
+Task 1
+Am citit datele de intrare folosind functia load.
+
+Task 2
+Am implementat algoritmul K-Means, respectand pasii
+specificati in enunt. Am detaliat mai mult in comentariile
+din cod.
+
+Task 3
+Am folosit functia scatter3 pentru a reprezenta grafic
+punctele. Apartenenta punctelor la clustere am
+evidentiat-o folosind culori diferite pentru fiecare
+cluster. Pentru aceasta am utilizat, ca la Task 2,
+un vector ce contine indicii grupurilor in care se
+afla punctele, vector pe care l-am dat ca parametru
+de culori functiei scatter3.
+
+Task4
+Nu am calculat suma costurilor tuturor grupurilor,
+ci am ales sa calculez direct costul total. Pentru
+asta am determinat distanta de la fiecare punct la
+centroidul grupului caruia apartine, distante pe
+care le-am adunat, rezultand costul total al solutiei.
+
+Task5
+Am reprezentat grafic variatia costului total in
+functie de numarul de clustere, pe intervalul cerut,
+folosind functia plot.
